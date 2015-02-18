@@ -1,0 +1,18 @@
+// seville
+
+extends layout
+
+
+
+block content
+	h1 Hello Seville
+
+	form(action="/handleForm", method="post")
+	input(type="text", name="location", placeholder="Location...")
+	input(type="submit")
+
+	p 
+		a(href="canaryislands") Next  
+	p
+		img(src= "http://www.sonofthesouth.net/revolutionary-war/maps/world-map-1600.jpg")
+
